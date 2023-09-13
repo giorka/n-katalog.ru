@@ -134,7 +134,7 @@ class Page:
 
 
 class DataSheet:
-    path = 'data/raw.json'
+    path = 'webscrapper/data/raw.json'
 
     def __init__(self, **kwargs) -> None:
         self.details = kwargs
